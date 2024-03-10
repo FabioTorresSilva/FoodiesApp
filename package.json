@@ -32,6 +32,9 @@
     "tailwind": "^4.0.0",
     "uuid": "^9.0.1"
   },
+  "browser": {
+    "child_process": false
+  },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
     "daisyui": "^4.7.2",

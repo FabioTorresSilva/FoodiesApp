@@ -22,40 +22,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/foodies/favoritos": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/foodies/favoritos.js"
-    ],
     "/foodies/homepage": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/foodies/homepage.js"
     ],
-    "/foodies/login": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/foodies/login.js"
-    ],
-    "/foodies/perfil": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/foodies/perfil.js"
-    ],
-    "/foodies/publicar": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/foodies/publicar.js"
-    ],
     "/foodies/receita": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/foodies/receita.js"
-    ],
-    "/foodies/search": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/foodies/search.js"
     ]
   },
   "ampFirstPages": []
