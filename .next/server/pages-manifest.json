@@ -3,8 +3,21 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/api/receitas/todasReceitas": "pages/api/receitas/todasReceitas.js",
   "/foodies": "pages/foodies.js",
+  "/api/receitas/todasReceitas": "pages/api/receitas/todasReceitas.js",
+  "/foodies/homepage": "pages/foodies/homepage.js",
   "/foodies/search": "pages/foodies/search.js",
-  "/foodies/homepage": "pages/foodies/homepage.js"
+  "/api/receitas/filtrosPagInicial/categoria/sobremesa": "pages/api/receitas/filtrosPagInicial/categoria/sobremesa.js",
+  "/api/receitas/filtrosPagInicial/top10Receitas": "pages/api/receitas/filtrosPagInicial/top10Receitas.js",
+  "/api/receitas/filtrosPagInicial/categoria/lanches": "pages/api/receitas/filtrosPagInicial/categoria/lanches.js",
+  "/api/receitas/filtrosPagInicial/maisBaratas": "pages/api/receitas/filtrosPagInicial/maisBaratas.js",
+  "/api/receitas/filtrosPagInicial/maisFaceis": "pages/api/receitas/filtrosPagInicial/maisFaceis.js",
+  "/api/receitas/filtrosPagInicial/maisRapidas": "pages/api/receitas/filtrosPagInicial/maisRapidas.js",
+  "/api/receitas/filtrosPagInicial/categoria/sopa": "pages/api/receitas/filtrosPagInicial/categoria/sopa.js",
+  "/api/receitas/filtrosPagInicial/maisSaudaveis": "pages/api/receitas/filtrosPagInicial/maisSaudaveis.js",
+  "/api/receitas/filtrosPagInicial/categoria/pratosPrincipais": "pages/api/receitas/filtrosPagInicial/categoria/pratosPrincipais.js",
+  "/foodies/receita": "pages/foodies/receita.js",
+  "/api/receitas/receitas": "pages/api/receitas/receitas.js",
+  "/api/user/verificaToken": "pages/api/user/verificaToken.js",
+  "/api/receitas/filtrosPagInicial/categoria/entradas": "pages/api/receitas/filtrosPagInicial/categoria/entradas.js"
 }
