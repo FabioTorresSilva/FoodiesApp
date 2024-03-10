@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/foodies/receita": "pages/foodies/receita.js",
-  "/foodies/homepage": "pages/foodies/homepage.js",
-  "/foodies/search": "pages/foodies/search.js"
+  "/": "pages/index.js",
+  "/foodies": "pages/foodies.js",
+  "/api/receitas/todasReceitas": "pages/api/receitas/todasReceitas.js",
+  "/404": "pages/404.js"
 }
