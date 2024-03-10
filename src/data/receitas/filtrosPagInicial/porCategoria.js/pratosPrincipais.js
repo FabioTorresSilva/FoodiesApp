@@ -1,4 +1,4 @@
-const { getMongoCollection } = require("@/pages/data/mongodb/mongodb");
+const { getMongoCollection } = require("@/data/mongodb/mongodb");
 
 const collectionName = "receitas";
 

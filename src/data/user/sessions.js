@@ -1,5 +1,6 @@
 const { getMongoCollection } = require("../mongodb/mongodb");
 
+
 const collectionName = "sessions"
 
 //coloca o session na base de dados

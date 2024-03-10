@@ -1,6 +1,7 @@
 const { ObjectId } = require('mongodb');
 const { getMongoCollection } = require('../mongodb/mongodb');
 
+
 const collectionName = "receitas";
 
 async function verificaUserLike(idUsuario, idReceita) {

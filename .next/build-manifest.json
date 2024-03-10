@@ -27,10 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/foodies.js"
     ],
-    "/foodies/favoritos": [
+    "/foodies/homepage": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/foodies/favoritos.js"
+      "static/chunks/pages/foodies/homepage.js"
     ],
     "/foodies/search": [
       "static/chunks/webpack.js",
