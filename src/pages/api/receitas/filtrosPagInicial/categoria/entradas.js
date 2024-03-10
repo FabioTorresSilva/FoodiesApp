@@ -1,7 +1,9 @@
 //filtrar categoria entras
 
-import { filtrarPorEntradas } from "@/pages/services/receitas/filtrosPagInicial/categoria.js/entradas";
+import { filtrarPorEntradas } from "@/services/receitas/filtrosPagInicial/categoria.js/entradas";
 
+/* import { filtrarPorEntradas } from "@/services/receitas/filtrosPagInicial/categoria.js/entradas";
+ */
 export default async function handler(req, res) {
     try {
         if (req.method === "GET") {

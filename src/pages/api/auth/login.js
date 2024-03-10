@@ -1,8 +1,9 @@
-import { checkEmailPassword } from '@/pages/services/auth/login';
-import { checkEmail } from '@/pages/services/auth/signup';
-import { createTokens } from '@/pages/services/user/tokens';
 
 /* POST /api/auth/login */
+
+import { checkEmailPassword } from "@/services/auth/login";
+import { checkEmail } from "@/services/auth/signup";
+import { createTokens } from "@/services/user/tokens";
 
 export default async function handler(req, res) {
     try {

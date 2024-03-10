@@ -1,4 +1,4 @@
-import { findToken, getUserToken } from "@/pages/services/user/tokens"
+import { findToken, getUserToken } from "@/services/user/tokens"
 //inutil
 export default async function handler(req, res) {
     try {

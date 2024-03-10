@@ -1,3 +1,6 @@
+import { findAccount } from "@/data/auth/signup"
+import { findToken } from "@/services/user/tokens"
+
 export default async function handler(req, res) {
     try {
         const token = req.headers.authorization

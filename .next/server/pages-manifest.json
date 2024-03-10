@@ -2,8 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
   "/foodies": "pages/foodies.js",
+  "/foodies/search": "pages/foodies/search.js",
   "/api/receitas/todasReceitas": "pages/api/receitas/todasReceitas.js",
-  "/404": "pages/404.js"
+  "/foodies/favoritos": "pages/foodies/favoritos.js",
+  "/api/user/verificaToken": "pages/api/user/verificaToken.js",
+  "/api/user/receitasFav": "pages/api/user/receitasFav.js"
 }

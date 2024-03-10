@@ -1,4 +1,4 @@
-import { filtrarPorLanches } from "@/pages/services/receitas/filtrosPagInicial/categoria.js/lanches";
+import { filtrarPorLanches } from "@/services/receitas/filtrosPagInicial/categoria.js/lanches";
 
 export default async function handler(req, res) {
     try {

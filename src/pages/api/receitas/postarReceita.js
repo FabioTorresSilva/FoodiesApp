@@ -1,5 +1,5 @@
-import { verificaSeExiste } from "@/pages/data/receitas/postarReceita";
-import { createReceita } from "@/pages/services/receitas/postarReceita";
+import { verificaSeExiste } from "@/data/receitas/postarReceita";
+import { createReceita } from "@/services/receitas/postarReceita";
 
 /* POST /api/receitas/postarReceitas*/
 export default async function handler(req, res) {

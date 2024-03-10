@@ -1,6 +1,7 @@
 // receitas ordenadas Por preço (devo restringir a apenas 10/20 receitas?)
 
-import { filtrarPorPreco } from "@/pages/services/receitas/filtrosPagInicial/maisBaratas";
+import { filtrarPorPreco } from "@/services/receitas/filtrosPagInicial/maisBaratas";
+
 
 export default async function handler(req, res) {
     try {

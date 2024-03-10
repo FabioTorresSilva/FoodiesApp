@@ -1,4 +1,4 @@
-import { updateReceita } from "@/pages/services/user/adminAprovar";
+import { updateReceita } from "@/services/user/adminAprovar";
 
 
 export default async function handler(req, res) {

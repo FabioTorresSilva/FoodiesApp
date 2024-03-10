@@ -1,6 +1,6 @@
 //Receitas por likes  -> FEITO
 
-import { filtrarPorLikes } from "@/pages/services/receitas/filtrosPagInicial/top10Receitas";
+import { filtrarPorLikes } from "@/services/receitas/filtrosPagInicial/top10Receitas";
 
 export default async function handler(req, res) {
     try {

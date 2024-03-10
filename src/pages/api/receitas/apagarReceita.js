@@ -1,4 +1,4 @@
-import { apagarReceita } from "@/pages/services/receitas/apagarReceita";
+import { apagarReceita } from "@/services/receitas/apagarReceita";
 export default async function handler(req, res) {
     if (req.method !== "DELETE") {
         return res.status(405).json({ message: "Método não permitido" });

@@ -1,6 +1,6 @@
 // Receitas saudaveis // com menos calorias
 
-import { filtrarPorCalorias } from "@/pages/services/receitas/filtrosPagInicial/maisSaudaveis";
+import { filtrarPorCalorias } from "@/services/receitas/filtrosPagInicial/maisSaudaveis";
 
 
 

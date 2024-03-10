@@ -1,5 +1,5 @@
-import { findAccount } from "@/pages/data/auth/signup";
-import { findToken } from "@/pages/services/user/tokens";
+import { findAccount } from "@/data/auth/signup";
+import { findToken } from "@/services/user/tokens";
 
 export default async function handler(req, res) {
     try {

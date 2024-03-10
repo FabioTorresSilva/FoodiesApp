@@ -1,5 +1,5 @@
-import { adicionarOuRemoverLikeDB } from "@/pages/data/user/like";
-import { verificarLike } from "@/pages/services/user/like";
+import { adicionarOuRemoverLikeDB } from "@/data/user/like";
+import { verificarLike } from "@/services/user/like";
 
 export default async function handler(req, res) {
     try {

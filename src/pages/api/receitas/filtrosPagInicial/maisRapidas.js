@@ -1,6 +1,6 @@
 //Receitas Ordenadas Por tempo (devo restringir a apenas 10/20 receitas?)
 
-import { filtrarPorDuracao } from "@/pages/services/receitas/filtrosPagInicial/maisRapidas";
+import { filtrarPorDuracao } from "@/services/receitas/filtrosPagInicial/maisRapidas";
 
 export default async function handler(req, res) {
     try {

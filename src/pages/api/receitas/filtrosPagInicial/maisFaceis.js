@@ -1,6 +1,6 @@
 // receitas Ordenadas Por Facilidade (devo restringir a apenas 10/20 receitas?)
 
-import { filtrarPorFacilidade } from "@/pages/services/receitas/filtrosPagInicial/maisFaceis";
+import { filtrarPorFacilidade } from "@/services/receitas/filtrosPagInicial/maisFaceis";
 
 export default async function handler(req, res) {
     try {

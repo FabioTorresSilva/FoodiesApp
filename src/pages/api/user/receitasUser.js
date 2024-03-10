@@ -1,4 +1,4 @@
-import { procurarReceitasUsuario } from "@/pages/services/user/receitasUser";
+import { procurarReceitasUsuario } from "@/services/user/receitasUser";
 
 export default async function handler(req, res) {
     try {

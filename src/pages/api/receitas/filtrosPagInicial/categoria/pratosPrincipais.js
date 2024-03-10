@@ -1,4 +1,4 @@
-import { filtrarPorPratosPrincipais } from "@/pages/services/receitas/filtrosPagInicial/categoria.js/pratosPrincipais";
+import { filtrarPorPratosPrincipais } from "@/services/receitas/filtrosPagInicial/categoria.js/pratosPrincipais";
 
 export default async function handler(req, res) {
     try {

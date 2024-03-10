@@ -1,5 +1,7 @@
-import {
-  checkEmailSignUp,checkPassword,createUser,getId,} from "@/pages/services/auth/signup";
+/* import {checkEmailSignUp,checkPassword,createUser,getId,} from "@/pages/services/auth/signup";/*  */
+
+import { checkEmailSignUp } from "@/services/auth/signup";
+
 
 /* POST /api/auth/signup */
 export default async function handler(req, res) {
