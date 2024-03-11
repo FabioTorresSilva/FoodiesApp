@@ -27,8 +27,8 @@ export default function PerfilPage() {
   }
 
   return (
-    <div className="flex flex-col">
-      <div className="flex justify-center h-72  pb-40">
+    <div className="flex flex-col pb-32">
+      <div className="flex justify-center h-72  pb-44">
         <div className="p-8 w-full">
           <img
             src="/receitainfo/arrowBack.svg"
@@ -75,7 +75,7 @@ export default function PerfilPage() {
             {userData.email}
           </div>
         </div>
-        <div className="pt-12">
+        <div className="pt-10">
           <button
             className="bg-verde text-white font-bold py-2 text-bold px-4 rounded-lg"
             onClick={handleLogout}
