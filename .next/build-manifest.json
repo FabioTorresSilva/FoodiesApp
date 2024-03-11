@@ -17,6 +17,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
+    "/404": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/404.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -37,10 +42,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/foodies/homepage.js"
     ],
-    "/foodies/receita": [
+    "/foodies/login": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/foodies/receita.js"
+      "static/chunks/pages/foodies/login.js"
+    ],
+    "/foodies/perfil": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/foodies/perfil.js"
     ],
     "/foodies/search": [
       "static/chunks/webpack.js",
