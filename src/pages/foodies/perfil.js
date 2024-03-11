@@ -28,7 +28,7 @@ export default function PerfilPage() {
 
   return (
     <div className="flex flex-col">
-      <div className="flex justify-center h-72  pb-20">
+      <div className="flex justify-center h-72  pb-32">
         <div className="p-8 w-full">
           <img
             src="/receitainfo/arrowBack.svg"
