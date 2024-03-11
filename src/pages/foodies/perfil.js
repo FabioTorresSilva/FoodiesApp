@@ -1,13 +1,13 @@
 import { useRouter } from "next/router";
 import ProtectPage from "@/utils/hooks/protectPagesHook";
-import { useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import UserProfile from "@/components/profile/ProfileImage";
 
 export default function PerfilPage() {
   const { loading, userData } = ProtectPage();
   const router = useRouter();
 
-  useEffect(() => {}, [userData]);
+  useEffect(() => { }, [userData]);
 
   console.log("userdata:", userData);
   const handleLogout = () => {
@@ -28,7 +28,7 @@ export default function PerfilPage() {
 
   return (
     <div className="flex flex-col">
-      <div className="flex justify-center h-72">
+      <div className="flex justify-center h-72  pb-20">
         <div className="p-8 w-full">
           <img
             src="/receitainfo/arrowBack.svg"
@@ -38,7 +38,7 @@ export default function PerfilPage() {
             height="40"
           />
           <div className="flex justify-center items-center pt-10">
-            <UserProfile  />
+            <UserProfile />
           </div>
         </div>
       </div>

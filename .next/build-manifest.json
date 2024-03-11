@@ -41,11 +41,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/foodies/perfil.js"
-    ],
-    "/foodies/search": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/foodies/search.js"
     ]
   },
   "ampFirstPages": []
