@@ -1,4 +1,6 @@
 # Foodies - Next.js + MongoDb
+Forked from <a href=https://github.com/MariaBeatrizCarneiro/foodies>here</a>
+
 ## Introdução
 
 O projeto Foodies nasceu da necessidade de aproveitar ao máximo os ingredientes que temos em casa, especialmente aqueles que estão prestes a estragar e não sabemos como utilizar. Com a Foodies, os utilizadores podem pesquisar receitas baseadas num ingrediente específico, criar e partilhar as suas próprias receitas, dar like e adicionar receitas aos favoritos, procurar receitas por categorias, preço, tipo de prato, e até excluir ingredientes que não tenham disponíveis. A nossa solução é desenvolvida com Next.js para o frontend e MongoDB para a base de dados, garantindo uma experiência de utilizador fluída e responsiva.
